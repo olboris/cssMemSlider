@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Arial-MT';
+    src: url("../assets/fonts/Arial-MT.woff"); /* Путь к файлу со шрифтом */
+   }
+
+.body {
+    min-width: 320px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url("./assets/img/background.jpeg") center/cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    width: 90%;
+    margin: 50px auto;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 20px;
+    color:dimgray;
+}
+
+.slider {
+    width: 90%;
+    margin: 50px auto;
+    border: 1px solid red;
+}
+
+.image-container {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid red;
+    margin-bottom: 25px;
+}
+
+.slide-1 {
+    background-image: url(./assets/img/slide1.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+}
