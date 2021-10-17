@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Arial-MT';
-    src: url("../assets/fonts/Arial-MT.woff"); /* Путь к файлу со шрифтом */
+    src: url("../assets/fonts/Arial-MT.woff");
    }
 
 .body {
@@ -23,6 +23,7 @@
 
 .slider {
     width: 90%;
+    max-width: 950px;
     display: grid;
     grid-template-areas: "A A A A A A A"
                          "B C D E F G H";
@@ -43,7 +44,6 @@
 
 .slide {
     width: 100%;
-    max-width: 950px;
     height: auto;
     max-height: 80vh;
     object-fit: cover;
@@ -55,8 +55,8 @@
 
 .bullet {
     margin: auto 0;
-    width: 30px;
     cursor: pointer;
+    width: 25px;
 }
 
 .bullet:hover {
@@ -92,26 +92,6 @@
 #slide-5:checked ~ .slide-5 {
     opacity: 1;
 }
-
-/*#slide-1:checked ~ .slide {
-    background-image: url(./assets/img/mem1.jpeg);
-}
-
-#slide-2:checked ~ .slide {
-    background-image: url(./assets/img/mem2.png);
-}
-
-#slide-3:checked ~ .slide {
-    background-image: url(./assets/img/mem3.jpeg);
-}
-
-#slide-4:checked ~ .slide {
-    background-image: url(./assets/img/mem4.jpeg);
-}
-
-#slide-5:checked ~ .slide {
-    background-image: url(./assets/img/mem5.jpeg);
-}*/
 
 #slide-1:checked ~ .sub-1,
 #slide-2:checked ~ .sub-2,
