@@ -114,3 +114,46 @@
 #slide-5:checked ~ .sub-5{
     opacity: 1;
 }
+
+@media (max-width: 768px){
+    .header {
+        font-size: 18px;
+    }
+    
+    .slider {
+        width: 90%;
+        display: grid;
+        grid-template-areas: "A A A A A A A"
+                             "B C D E F G H"
+                             "I I I I I I I";
+        grid-template-columns: auto 30px 30px 30px 30px 30px auto;
+        row-gap: 15px;
+        margin: 25px auto;
+    }
+
+    .image-subtitle {
+        font-size: 15px;
+        width: 100%;
+        grid-area: I;
+    }
+
+    .bullet-1 {
+        grid-area: C;
+    }
+    
+    .bullet-2 {
+        grid-area: D;
+    }
+    
+    .bullet-3 {
+        grid-area: E;
+    }
+    
+    .bullet-4 {
+        grid-area: F;
+    }
+    
+    .bullet-5 {
+        grid-area: G;
+    }
+}
