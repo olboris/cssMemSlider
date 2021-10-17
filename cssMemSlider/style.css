@@ -59,6 +59,12 @@
     cursor: pointer;
 }
 
+.bullet:hover {
+    opacity: 0.8;
+    background-color: skyblue;
+    transition: background-color 1s ease-out;
+}
+
 .bullet-1 {
     grid-area: D;
 }
